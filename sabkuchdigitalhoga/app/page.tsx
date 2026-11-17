@@ -20,8 +20,8 @@ export default function Home(){
   <div className="top"><div className="wrap topin"><span><i/> Repair support for laptops, desktops & audio devices</span><span><MapPin size={14}/> Mumbai & surrounding areas · <a href="mailto:bapu44@gmail.com">Contact us</a></span></div></div>
   <header><div className="wrap nav">
    <Link className="logo" href="/"><b><Zap size={22} fill="currentColor"/></b><span><strong>sabkuch<span>digital</span>hoga</strong><small>REPAIR. RESTORE. RECONNECT.</small></span></Link>
-   <nav><a href="#services">Services</a><a href="#brands">Brands</a><a href="#steps">How it works</a><a href="#about">About</a></nav>
-   <a className="btn dark small" href="#book">Book a repair <ArrowUpRight size={16}/></a><button className="hamb" aria-label="Menu"><Menu/></button>
+   <nav className="desktopNav"><a href="#services">Services</a><a href="#brands">Brands</a><a href="#steps">How it works</a><a href="#about">About</a></nav>
+   <a className="btn dark small" href="#book">Book a repair <ArrowUpRight size={16}/></a><details className="mobileNav"><summary aria-label="Open menu"><Menu size={22}/></summary><div className="mobileMenuLinks"><a href="#services">Services</a><a href="#brands">Brands</a><a href="#steps">How it works</a><a href="#about">About</a><a href="#book">Book a repair</a></div></details>
   </div></header>
   <section className="hero"><div className="gridbg"/><div className="wrap heroGrid">
    <div className="heroText"><div className="eyebrow"><i/> YOUR ONE-STOP REPAIR DESTINATION</div><h1>Technology breaks.<br/><em>We bring it back</em><br/>to life.</h1><p>Expert repair support for laptops, desktops and premium audio devices. One simple place to get your everyday technology working again.</p><div className="actions"><a className="btn lime" href="#book">Book a repair <ArrowRight size={18}/></a><a className="link" href="#services">Explore services <ArrowUpRight size={17}/></a></div><div className="proof"><CheckCircle2 size={17}/> Easy online booking <span/> Multiple device brands</div></div>
