@@ -1,9 +1,0 @@
-node_modules
-dist
-*.local
-.env
-.env.*
-!.env.example
-.vscode/
-.DS_Store
-Thumbs.db
